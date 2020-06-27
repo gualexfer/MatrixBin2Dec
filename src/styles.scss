@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+    --primary-color: rgba(74, 231, 66, 1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000;
+    color: var(--primary-color);
+    font-size: 100px;
+    font-weight: 100;
+}
+
+body {
+    overflow: hidden;
+}
